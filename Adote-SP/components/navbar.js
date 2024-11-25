@@ -20,7 +20,7 @@ const Navbar = () => {
       <ul className={styles.navLinks}>
         <li><Link href="/animais">Animais</Link></li>
         <li><button onClick={scrollToAboutUs} className={styles.buttonLink}>Sobre nós</button></li>
-        <li><Link href="/login">Login</Link></li>
+        <li><Link href="/login">Adm</Link></li>
       </ul>
     </nav>
   );

@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    min-height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
+    min-height: 100vh; 
   }
   
   /* Contêiner do Formulário */
@@ -95,7 +95,7 @@
   }
   
   .button {
-    background-color: #007bff;
+    background-color: #FF9915; 
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -108,7 +108,7 @@
   }
   
   .button:hover {
-    background-color: #0056b3;
+    background-color: #c57702; 
   }
   
   .submitButton {
@@ -145,6 +145,7 @@
   }
   
   .modal {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: fixed;
     top: 0;
     left: 0;
