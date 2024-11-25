@@ -1,4 +1,3 @@
-// components/Testimonials.js
 import { useEffect, useState } from 'react';
 import styles from '../styles/testimonials.module.css';
 
@@ -42,7 +41,7 @@ const Testimonials = () => {
         {testimonials.length === 0 ? (
           <p>Nenhum depoimento disponível.</p>
         ) : (
-          testimonials.map(testimonial => (
+          testimonials.map((testimonial) => (
             <div key={testimonial.id} className={styles.testimonial}>
               <p>"{testimonial.depoimento}"</p>
               <h4>- {testimonial.nome_administrador}</h4>

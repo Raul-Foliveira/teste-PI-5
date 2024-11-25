@@ -3,6 +3,7 @@
     padding-left: 250px; /* Ou 200px para telas menores */
     padding-top: 20px;
     margin-right: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 768px) {
